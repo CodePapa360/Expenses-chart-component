@@ -2,12 +2,18 @@
   // Primary
   --soft-red: hsl(10, 79%, 65%);
   --cyan: hsl(186, 34%, 60%);
+  //added
 
   // Neutral
   --dark-brown: hsl(25, 47%, 15%);
   --medium-brown: hsl(28, 10%, 53%);
   --cream: hsl(27, 66%, 92%);
   --very-paleorange: hsl(33, 100%, 98%);
+
+  //added
+  --light-cyan: hsl(186, 27%, 70%);
+  --light-soft-red: hsl(10, 78%, 73%);
+  --static-very-paleorange: hsl(33, 100%, 98%);
 }
 
 body {
@@ -19,11 +25,11 @@ body {
   min-height: 100vh;
 
   background-color: var(--cream);
-  padding: 0 1rem;
+  padding: 1rem;
 }
 
 .main {
-  max-width: 25rem;
+  max-width: 28rem;
   margin: auto;
   width: 100%;
 }

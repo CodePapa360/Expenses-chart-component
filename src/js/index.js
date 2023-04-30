@@ -1,6 +1,8 @@
 "use strict";
 import "../sass/main.scss";
 
+const chartContainer = document.querySelector(".chart-container");
+
 //Dark mode veriables
 const darkModeToggle = document.getElementById("dark-mode-checkbox");
 const root = document.documentElement;
@@ -19,3 +21,7 @@ window.addEventListener("load", function () {
 });
 //////////////////////////////
 /////////////////////////////
+const today = new Date().getDay() - 1;
+const allEl = Array.from(chartContainer.children);
+allEl.forEach((el) => el.classList.remove("current"));
+allEl[today].classList.add("current");

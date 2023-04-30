@@ -7,14 +7,14 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/profile/CodePapa3
 
 <h2 align="center">
 
-[🚀 Live Site](https://expenses-chart-component-alamin.netlify.app/)
+[🚀Live Site](https://expenses-chart-component-alamin.netlify.app/)
 |
-[💡 Solution]()
+[💡Frontend Mentor]()
 
 </h2>
 
 <p align="center">
-This is a solution to the Expenses chart component challenge on Frontend Mentor.
+Welcome to the Expenses-chart-component practice project! This is a responsive and visually appealing component that displays a chart of expense data. Check out the live demo to see it in action.
 </p>
 
 <a align="center" href="https://expenses-chart-component-alamin.netlify.app/">

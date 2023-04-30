@@ -1,26 +1,23 @@
 :root.dark-mode {
   // Primary
-  --blue: hsl(249, 99%, 64%);
-  --violet: hsl(278, 100%, 76%); //(active input border)
-  --red: hsl(0, 100%, 66%); //(input errors)
+  --soft-red: hsl(10, 54%, 50%); // c
+  --cyan: hsl(186, 34%, 60%);
+  --light-cyan: hsl(186, 27%, 70%);
 
   // Neutral
-  --white: hsl(261, 32%, 9%);
-  --light-grayish-violet: hsl(0, 0%, 45%);
-  --dark-grayish-violet: hsl(278, 6%, 66%);
-  --very-dark-violet: hsl(278, 49%, 85%);
+  --dark-brown: hsl(25, 62%, 67%);
+  --medium-brown: hsl(27, 29%, 76%); // c
+  --cream: hsl(30, 5%, 15%); // c
+  --very-paleorange: hsl(20, 3%, 19%); //c
 
   //added
-  --shadow-dark-violet: hsla(278, 32%, 46%, 0.5);
-  --mod-very-dark-violet: hsl(278, 87%, 24%);
-  --mod-violet: hsl(278, 56%, 36%);
-  --black: rgb(243, 243, 243);
+  --light-soft-red: hsl(10, 51%, 55%); //c
 }
 
 .dark-mode-container {
-  position: absolute;
-  top: 0.5rem;
-  right: 0.5rem;
+  // position: absolute;
+  // top: 0.5rem;
+  // right: 0.5rem;
   z-index: 1;
 
   display: block;
