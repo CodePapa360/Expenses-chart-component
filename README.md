@@ -5,7 +5,9 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/profile/CodePapa3
 
 </div>
 
-<h2 align="center">
+# This project is Not finished yet, Work in Progress!!
+
+<!-- <h2 align="center">
 
 [🚀Live Site](https://expenses-chart-component-alamin.netlify.app/)
 |
@@ -15,7 +17,7 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/profile/CodePapa3
 
 <p align="center">
 Welcome to the Expenses-chart-component practice project! This is a responsive and visually appealing component that displays a chart of expense data. Check out the live demo to see it in action.
-</p>
+</p> -->
 
 <a align="center" href="https://expenses-chart-component-alamin.netlify.app/">
 
