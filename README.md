@@ -7,7 +7,8 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/profile/CodePapa3
 
 # This project is Not finished yet, Work in Progress!!
 
-<!-- <h2 align="center">
+<!--
+<h2 align="center">
 
 [🚀Live Site](https://expenses-chart-component-alamin.netlify.app/)
 |
@@ -17,7 +18,7 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/profile/CodePapa3
 
 <p align="center">
 Welcome to the Expenses-chart-component practice project! This is a responsive and visually appealing component that displays a chart of expense data. Check out the live demo to see it in action.
-</p> -->
+</p>
 
 <a align="center" href="https://expenses-chart-component-alamin.netlify.app/">
 
@@ -94,4 +95,4 @@ Special thanks to Frontend Mentor for providing such an amazing platform to prac
 
 ## License
 
-This project is licensed under the [MIT](https://github.com/CodePapa360/Expenses-chart-component/blob/main/LICENSE.md) license, which means you can use, modify, and distribute the code as you wish. If you have any questions or feedback, feel free to reach out. Thank you for considering my code!
+This project is licensed under the [MIT](https://github.com/CodePapa360/Expenses-chart-component/blob/main/LICENSE.md) license, which means you can use, modify, and distribute the code as you wish. If you have any questions or feedback, feel free to reach out. Thank you for considering my code! -->
