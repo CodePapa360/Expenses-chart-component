@@ -21,7 +21,10 @@ window.addEventListener("load", function () {
 });
 //////////////////////////////
 /////////////////////////////
-const today = new Date().getDay() - 1;
+const today = new Date()
+  .toLocaleString("en-us", { weekday: "long" })
+  .toLowerCase()
+  .slice(0, 3);
 const allEl = Array.from(chartContainer.children);
-allEl.forEach((el) => el.classList.remove("current"));
-allEl[today].classList.add("current");
+
+allEl.find((el) => el.classList.contains(today)).classList.add("current");

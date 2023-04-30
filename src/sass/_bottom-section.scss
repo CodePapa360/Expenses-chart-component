@@ -21,14 +21,13 @@
       position: relative;
 
       &::after {
-        content: "$17.45";
+        content: attr(data-amount);
         position: absolute;
         top: -1.6rem;
         left: 50%;
         transform: translateX(-50%);
-        // height: 1.7rem;
-        // width: 150%;
-        padding: 0.3rem 0.5rem;
+        height: 1.8rem;
+        width: 130%;
         border-radius: 3px;
         color: var(--very-paleorange);
         font-size: 0.8rem;
@@ -50,7 +49,7 @@
 
       &:hover.each-column::after {
         opacity: 1;
-        top: -2rem;
+        top: -2.2rem;
       }
 
       p {
@@ -68,31 +67,31 @@
       }
     }
 
-    .col-mon {
+    .mon {
       height: 100%;
     }
-    .col-tue {
+    .tue {
       height: 80%;
     }
-    .col-wed {
+    .wed {
       height: 70%;
     }
-    .col-thu {
+    .thu {
       height: 90%;
     }
-    .col-fri {
+    .fri {
       height: 70%;
     }
-    .col-sat {
+    .sat {
       height: 40%;
     }
-    .col-sun {
+    .sun {
       height: 60%;
     }
 
     .current.each-column::after {
       opacity: 1;
-      top: -2rem;
+      top: -2.2rem;
     }
 
     .current .column {
