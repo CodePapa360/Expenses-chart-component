@@ -5,9 +5,6 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/profile/CodePapa3
 
 </div>
 
-# This project is Not finished yet, Work in Progress!!
-
-<!--
 <h2 align="center">
 
 [🚀Live Site](https://expenses-chart-component-alamin.netlify.app/)
@@ -95,4 +92,4 @@ Special thanks to Frontend Mentor for providing such an amazing platform to prac
 
 ## License
 
-This project is licensed under the [MIT](https://github.com/CodePapa360/Expenses-chart-component/blob/main/LICENSE.md) license, which means you can use, modify, and distribute the code as you wish. If you have any questions or feedback, feel free to reach out. Thank you for considering my code! -->
+This project is licensed under the [MIT](https://github.com/CodePapa360/Expenses-chart-component/blob/main/LICENSE.md) license, which means you can use, modify, and distribute the code as you wish. If you have any questions or feedback, feel free to reach out. Thank you for considering my code!
