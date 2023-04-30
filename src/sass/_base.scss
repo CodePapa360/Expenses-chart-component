@@ -1,0 +1,33 @@
+:root {
+  // Primary
+  --soft-red: hsl(10, 79%, 65%);
+  --cyan: hsl(186, 34%, 60%);
+
+  // Neutral
+  --dark-brown: hsl(25, 47%, 15%);
+  --medium-brown: hsl(28, 10%, 53%);
+  --cream: hsl(27, 66%, 92%);
+  --very-paleorange: hsl(33, 100%, 98%);
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  background-color: var(--cream);
+  padding: 0 1rem;
+}
+
+.main {
+  max-width: 25rem;
+  margin: auto;
+  width: 100%;
+}
+
+.footer {
+  margin-top: auto;
+}

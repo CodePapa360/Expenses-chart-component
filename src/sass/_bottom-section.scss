@@ -1,0 +1,96 @@
+.bottom-section {
+  background-color: var(--very-paleorange);
+  border-radius: 10px;
+  padding: 1rem;
+  color: var(--dark-brown);
+
+  .chart-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 0.7rem;
+    height: 12rem;
+
+    .each-column {
+      flex: 1;
+      text-align: center;
+      cursor: pointer;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+
+      p {
+        font-size: 0.7rem;
+        color: var(--medium-brown);
+        margin-top: 0.5rem;
+      }
+
+      .column {
+        height: 1%;
+        background-color: var(--soft-red);
+        border-radius: 3px;
+      }
+
+      .col-mon {
+        height: 30%;
+      }
+      .col-tue {
+        height: 60%;
+      }
+      .col-wed {
+        height: 90%;
+      }
+      .col-thu {
+        height: 50%;
+      }
+      .col-fri {
+        height: 40%;
+      }
+      .col-sat {
+        height: 80%;
+      }
+      .col-sun {
+        height: 45%;
+      }
+    }
+  }
+
+  hr {
+    margin: 1.5rem 0;
+    border: none;
+    border-bottom: 2px solid var(--cream);
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    line-height: 1.1;
+  }
+
+  .bottom-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    h2 {
+      font-size: 0.9rem;
+      font-weight: 400;
+      color: var(--medium-brown);
+    }
+
+    .total-amount {
+      font-size: 1.8rem;
+      font-weight: 700;
+      line-height: 1;
+      margin-top: 0.5rem;
+    }
+
+    .last-month-amount {
+      font-size: 1rem;
+      text-align: right;
+      font-weight: 700;
+      line-height: 1;
+    }
+  }
+}
