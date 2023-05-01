@@ -19,6 +19,8 @@
       flex-direction: column;
       justify-content: flex-end;
       position: relative;
+      height: 0%;
+      transition: height 0.5s ease;
 
       &::after {
         content: attr(data-amount);
@@ -65,33 +67,6 @@
         border-radius: 3px;
         position: relative;
       }
-    }
-
-    .mon {
-      height: 100%;
-    }
-    .tue {
-      height: 80%;
-    }
-    .wed {
-      height: 70%;
-    }
-    .thu {
-      height: 90%;
-    }
-    .fri {
-      height: 70%;
-    }
-    .sat {
-      height: 40%;
-    }
-    .sun {
-      height: 60%;
-    }
-
-    .current.each-column::after {
-      opacity: 1;
-      top: -2.2rem;
     }
 
     .current .column {

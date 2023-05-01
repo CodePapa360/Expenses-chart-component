@@ -28,3 +28,78 @@ const today = new Date()
 const allEl = Array.from(chartContainer.children);
 
 allEl.find((el) => el.classList.contains(today)).classList.add("current");
+////////////////
+
+const renderData = function (data) {
+  let total = 0;
+  let allAmounts = [];
+
+  data.forEach((am) => {
+    //Adding the total amounts for sevent days
+    total = total + am.amount;
+    //Storing all amounts
+    allAmounts.push(am.amount);
+  });
+
+  const maxValue = Math.max(...allAmounts);
+
+  for (let i = 0; i < allEl.length; i++) {
+    const day = allEl[i].classList[1];
+    const dataForDay = data.find((each) => each.day === day);
+    allEl[i].dataset.amount = `$${dataForDay.amount}`;
+
+    const height = (dataForDay.amount / maxValue) * 100;
+
+    setTimeout(() => {
+      allEl[i].style.height = `${height}%`;
+    }, 400);
+  }
+};
+
+////////////////
+
+const btnData1 = document.getElementById("btn-demo-1");
+const btnData2 = document.getElementById("btn-demo-2");
+const btnData3 = document.getElementById("btn-demo-3");
+
+fetch("../../data.json")
+  .then((response) => response.json())
+  .then((data) => {
+    renderData(data);
+  })
+  .catch((error) => {
+    console.error(error);
+  });
+
+btnData1.addEventListener("click", function () {
+  fetch("../../data.json")
+    .then((response) => response.json())
+    .then((data) => {
+      renderData(data);
+    })
+    .catch((error) => {
+      console.error(error);
+    });
+});
+
+btnData2.addEventListener("click", function () {
+  fetch("../../data2.json")
+    .then((response) => response.json())
+    .then((data) => {
+      renderData(data);
+    })
+    .catch((error) => {
+      console.error(error);
+    });
+});
+
+btnData3.addEventListener("click", function () {
+  fetch("../../data3.json")
+    .then((response) => response.json())
+    .then((data) => {
+      renderData(data);
+    })
+    .catch((error) => {
+      console.error(error);
+    });
+});

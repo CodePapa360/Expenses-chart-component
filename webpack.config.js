@@ -12,7 +12,7 @@ module.exports = {
   },
   mode: "development",
   devServer: {
-    port: 2222,
+    port: 8080,
     hot: false,
     open: true,
   },

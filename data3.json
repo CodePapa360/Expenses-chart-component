@@ -1,30 +1,30 @@
 [
   {
     "day": "mon",
-    "amount": 17.45
+    "amount": 41.67
   },
   {
     "day": "tue",
-    "amount": 34.91
+    "amount": 78.54
   },
   {
     "day": "wed",
-    "amount": 52.36
+    "amount": 62.46
   },
   {
     "day": "thu",
-    "amount": 31.07
+    "amount": 23.66
   },
   {
     "day": "fri",
-    "amount": 23.39
+    "amount": 95.22
   },
   {
     "day": "sat",
-    "amount": 43.28
+    "amount": 87.55
   },
   {
     "day": "sun",
-    "amount": 25.48
+    "amount": 55.46
   }
 ]
