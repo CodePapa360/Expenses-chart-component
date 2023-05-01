@@ -30,6 +30,10 @@ module.exports = {
         test: /\.(png|jpe?g|gif|svg)$/i,
         type: "asset/resource",
       },
+      {
+        test: /\.json$/i,
+        type: "asset/resource",
+      },
     ],
   },
   plugins: [

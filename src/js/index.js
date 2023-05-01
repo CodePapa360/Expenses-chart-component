@@ -1,5 +1,8 @@
 "use strict";
 import "../sass/main.scss";
+import data1 from "../../data.json";
+import data2 from "../../data2.json";
+import data3 from "../../data3.json";
 
 const chartContainer = document.querySelector(".chart-container");
 
@@ -62,7 +65,7 @@ const btnData1 = document.getElementById("btn-demo-1");
 const btnData2 = document.getElementById("btn-demo-2");
 const btnData3 = document.getElementById("btn-demo-3");
 
-fetch("../../data.json")
+fetch(data1)
   .then((response) => response.json())
   .then((data) => {
     renderData(data);
@@ -72,7 +75,7 @@ fetch("../../data.json")
   });
 
 btnData1.addEventListener("click", function () {
-  fetch("../../data.json")
+  fetch(data1)
     .then((response) => response.json())
     .then((data) => {
       renderData(data);
@@ -83,7 +86,7 @@ btnData1.addEventListener("click", function () {
 });
 
 btnData2.addEventListener("click", function () {
-  fetch("../../data2.json")
+  fetch(data2)
     .then((response) => response.json())
     .then((data) => {
       renderData(data);
@@ -94,7 +97,7 @@ btnData2.addEventListener("click", function () {
 });
 
 btnData3.addEventListener("click", function () {
-  fetch("../../data3.json")
+  fetch(data3)
     .then((response) => response.json())
     .then((data) => {
       renderData(data);
