@@ -1,8 +1,8 @@
 "use strict";
 import "../sass/main.scss";
-import data1 from "../../data.json";
-import data2 from "../../data2.json";
-import data3 from "../../data3.json";
+import data1 from "../data/data.json";
+import data2 from "../data/data2.json";
+import data3 from "../data/data3.json";
 
 const chartContainer = document.querySelector(".chart-container");
 
@@ -52,10 +52,10 @@ const renderData = function (data) {
     allEl[i].dataset.amount = `$${dataForDay.amount}`;
 
     const height = (dataForDay.amount / maxValue) * 100;
-
+    allEl[i].style.height = `0%`;
     setTimeout(() => {
       allEl[i].style.height = `${height}%`;
-    }, 400);
+    }, 200);
   }
 };
 

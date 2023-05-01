@@ -8,11 +8,10 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
-    assetModuleFilename: "images/[name].[hash][ext][query]",
   },
   mode: "development",
   devServer: {
-    port: 8080,
+    port: 2222,
     hot: false,
     open: true,
   },
@@ -29,10 +28,16 @@ module.exports = {
       {
         test: /\.(png|jpe?g|gif|svg)$/i,
         type: "asset/resource",
+        generator: {
+          filename: "images/[name].[hash].[ext]",
+        },
       },
       {
         test: /\.json$/i,
         type: "asset/resource",
+        generator: {
+          filename: "data/[name].[hash].[ext]",
+        },
       },
     ],
   },

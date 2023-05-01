@@ -1,3 +1,27 @@
+.demo-btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+
+  .btn-demo {
+    background-color: var(--soft-red);
+    border: none;
+    padding: 0.5rem;
+    color: var(--static-very-paleorange);
+    border-radius: 10px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: var(--light-soft-red);
+    }
+
+    &:active {
+      background-color: var(--soft-red);
+    }
+  }
+}
+
 .upper-section {
   background-color: var(--soft-red);
   display: flex;
