@@ -16,6 +16,17 @@
   --static-very-paleorange: hsl(33, 100%, 98%);
 }
 
+@media screen and (max-width: 330px) {
+  html {
+    font-size: 70%;
+  }
+}
+
+::selection {
+  background-color: var(--soft-red);
+  color: var(--static-very-paleorange);
+}
+
 body {
   font-family: "DM Sans", sans-serif;
   font-size: 18px;
@@ -26,6 +37,8 @@ body {
 
   background-color: var(--cream);
   padding: 1rem;
+
+  transition: background 0.1s ease;
 }
 
 .main {

@@ -48,7 +48,6 @@
       content: "";
       display: inline-block;
       background: url(../images/icon-light.svg) no-repeat center / 80%;
-      // background: url(../src/images/icon-light.svg) no-repeat center / 80%;
 
       --clr-circle: #4343ff;
       --circle: calc(var(--sh-height) - var(--border) * 2);
@@ -67,7 +66,6 @@
 
   .dark-mode-checkbox:checked ~ .dark-mode-lebel::before {
     background-image: url(../images/icon-dark.svg);
-    // background-image: url(../src/images/icon-dark.svg);
 
     --clr-circle: #2c2cd8;
     left: calc(100% - var(--circle));

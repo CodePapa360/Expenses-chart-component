@@ -7,9 +7,11 @@
   .btn-demo {
     background-color: var(--soft-red);
     border: none;
-    padding: 0.5rem;
+    padding: 0.3rem 0.5rem;
     color: var(--static-very-paleorange);
     border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+
     cursor: pointer;
 
     &:hover {
@@ -17,7 +19,7 @@
     }
 
     &:active {
-      background-color: var(--soft-red);
+      background-color: var(--medium-brown);
     }
   }
 }
@@ -31,6 +33,7 @@
   border-radius: 10px;
   margin-bottom: 1rem;
   color: var(--static-very-paleorange);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 
   h1 {
     font-size: 1rem;
