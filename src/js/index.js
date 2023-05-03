@@ -17,9 +17,8 @@ const root = document.documentElement;
 /////////////////////////////
 // Get today's day name, in lowercase, and abbreviation
 const today = new Date()
-  .toLocaleString("en-us", { weekday: "long" })
-  .toLowerCase()
-  .slice(0, 3);
+  .toLocaleString("en-us", { weekday: "short" })
+  .toLowerCase();
 
 // Convert the chart container element's children to an array
 const allEl = Array.from(chartContainer.children);

@@ -5,8 +5,6 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/profile/CodePapa3
 
 </div>
 
-# This project is Not finished yet, Work in Progress!!
-
 <h2 align="center">
 
 [🚀Live Site](https://expenses-chart-component-alamin.netlify.app/)
@@ -16,7 +14,7 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/profile/CodePapa3
 </h2>
 
 <p align="center">
-Welcome to the Expenses-chart-component practice project! This is a responsive and visually appealing component that displays a chart of expense data. Check out the live demo to see it in action.
+Welcome to the Expenses-chart-component project! This is a responsive and visually appealing component that displays a chart of expense data for the last 7 days. Check out the live demo to see it in action.
 </p>
 
 <a align="center" href="https://expenses-chart-component-alamin.netlify.app/">
@@ -34,6 +32,7 @@ Users should be able to:
 - View the optimal layout for the content depending on their device’s screen size
 - See hover states for all interactive elements on the page
 - **Bonus**: Use the JSON data file provided to dynamically size the bars on the chart
+- **Bonus**: Added two additionally demo data
 - **Bonus:** Dark mode toggle
 
 ## Built with
@@ -43,9 +42,15 @@ Users should be able to:
 - JavaScript
 - Mobile-first workflow
 - NPM
-- [Webpack](https://webpack.js.org/)
+- [Webpack - a module bundler](https://webpack.js.org/)
 
 ## What I learned
+
+In building this project, I had the opportunity to learn and practice several key concepts in JavaScript. One of the most important concepts that I learned is working with JSON data. I was able to fetch data from external sources in the JSON format, parse the data into a format that is easily readable by JavaScript, and manipulate it to render it on the page.
+
+I also learned how to use JavaScript to perform various calculations and manipulations on data. For example, I was able to find the maximum value in a data set, calculate percentages, and manipulate CSS styles based on the data.
+
+Overall, building this project has greatly improved my understanding of JavaScript and has given me practical experience in building real-world applications using JavaScript.
 
 ## Installation
 
