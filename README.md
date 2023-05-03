@@ -14,7 +14,7 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/profile/CodePapa3
 </h2>
 
 <p align="center">
-Welcome to the Expenses-chart-component project! This is a responsive and visually appealing component that displays a chart of expense data for the last 7 days. Check out the live demo to see it in action.
+This is a JavaScript project that displays a chart of daily expenses for a week. It fetches data from three JSON files and dynamically updates the chart based on the data. In addition to the original dataset, two more sample data files have been added for demonstration purposes. This project was created to practice JavaScript skills
 </p>
 
 <a align="center" href="https://expenses-chart-component-alamin.netlify.app/">
