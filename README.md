@@ -9,7 +9,7 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/profile/CodePapa3
 
 [🚀Live Site](https://expenses-chart-component-alamin.netlify.app/)
 |
-[💡Frontend Mentor]()
+[💡Frontend Mentor](https://www.frontendmentor.io/solutions/expenses-chart-component-w-demo-data-vjfqzjFPRS)
 
 </h2>
 
