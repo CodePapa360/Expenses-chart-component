@@ -14,7 +14,7 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/profile/CodePapa3
 </h2>
 
 <p align="center">
-This is a JavaScript project that displays a chart of daily expenses for a week. It fetches data from three JSON files and dynamically updates the chart based on the data. In addition to the original dataset, two more sample data files have been added for demonstration purposes. This project was created to practice JavaScript skills
+This is a JavaScript project that displays a chart of daily expenses for a week. It fetches data from JSON files and dynamically updates the chart based on the data. In addition to the original dataset, two more sample data files have been added for demonstration purposes.
 </p>
 
 <a align="center" href="https://expenses-chart-component-alamin.netlify.app/">
@@ -32,7 +32,7 @@ Users should be able to:
 - View the optimal layout for the content depending on their device’s screen size
 - See hover states for all interactive elements on the page
 - **Bonus**: Use the JSON data file provided to dynamically size the bars on the chart
-- **Bonus**: Added two additionally demo data
+- **Bonus**: Added two more sample data
 - **Bonus:** Dark mode toggle
 
 ## Built with
